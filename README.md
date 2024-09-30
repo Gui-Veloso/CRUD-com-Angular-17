@@ -1,27 +1,49 @@
-# ProductStore
+# Projeto CRUD em Angular 17
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.5.
+## Descrição
+Este é um projeto simples de CRUD (Create, Read, Update, Delete) utilizando Angular 17. O objetivo é demonstrar como gerenciar dados de forma eficaz com uma interface amigável.
 
-## Development server
+## Tecnologias Utilizadas
+- Angular 17
+- TypeScript
+- HTML/CSS
+- Angular Material
+- JsonServer
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Funcionalidades
+- Criar novos registros
+- Listar registros existentes
+- Editar registros
+- Deletar registros
 
-## Code scaffolding
+## Instalação
+1. Clone este repositório:
+  
+   git clone https://github.com/Gui-Veloso/CRUD-com-Angular-17
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+2. Alterar a pasta:
 
-## Build
+  cd product-store
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+3. Instalar as dependências:
 
-## Running unit tests
+  npm install
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+4. Instalar o JsonServer, basta digitar no terminal:
+ npm i -D json-server
 
-## Running end-to-end tests
+5. Colocar o JsonServer no ar:
+   npx json-server db.json
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Execução
 
-## Further help
+Para rodar o projeto, utilize o comando:
+  ng serve
+  se não funcionar, digite: npx ng serve
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+
+
+## Projeto baseado no curso abaixo
+
+https://www.youtube.com/playlist?list=PLXEUJjGpEX7zwdFSAzIPiSf9p0tOeI1Yu
