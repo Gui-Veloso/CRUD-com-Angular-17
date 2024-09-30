@@ -18,32 +18,25 @@ Este é um projeto simples de CRUD (Create, Read, Update, Delete) utilizando Ang
 
 ## Instalação
 1. Clone este repositório:
-  
    git clone https://github.com/Gui-Veloso/CRUD-com-Angular-17
 
-2. Alterar a pasta:
+2. Navegue até a pasta do projeto:
+   cd product-store
 
-  cd product-store
+3. Instale as dependências:
+   npm install
 
-3. Instalar as dependências:
-
-  npm install
-
-4. Instalar o JsonServer, basta digitar no terminal:
+4. Instale o JsonServer:
    npm i -D json-server
 
-6. Colocar o JsonServer no ar:
+5. Coloque o JsonServer no ar:
    npx json-server db.json
 
 ## Execução
-
 Para rodar o projeto, utilize o comando:
-  ng serve
-se não funcionar, digite: npx ng serve
-
-
-
+ng serve
+Se não funcionar, tente:
+npx ng serve
 
 ## Projeto baseado no curso abaixo
-
-https://www.youtube.com/playlist?list=PLXEUJjGpEX7zwdFSAzIPiSf9p0tOeI1Yu
+[Curso de CRUD em Angular](https://www.youtube.com/playlist?list=PLXEUJjGpEX7zwdFSAzIPiSf9p0tOeI1Yu)
