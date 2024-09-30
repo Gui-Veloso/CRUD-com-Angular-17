@@ -30,16 +30,16 @@ Este é um projeto simples de CRUD (Create, Read, Update, Delete) utilizando Ang
   npm install
 
 4. Instalar o JsonServer, basta digitar no terminal:
- npm i -D json-server
+   npm i -D json-server
 
-5. Colocar o JsonServer no ar:
+6. Colocar o JsonServer no ar:
    npx json-server db.json
 
 ## Execução
 
 Para rodar o projeto, utilize o comando:
   ng serve
-  se não funcionar, digite: npx ng serve
+se não funcionar, digite: npx ng serve
 
 
 
