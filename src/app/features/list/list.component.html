@@ -1,0 +1,12 @@
+<div class="container">
+    <div class="conteudo-container">
+        <a mat-button [routerLink]="['/criar-produto']" class="btn-add"> Criar Produto </a>
+        
+        @for (produto of produtos(); track produto.id){
+           <app-card [produto]="produto" (editar)="onEdit(produto)" (deletar)="onDelete(produto)"></app-card> 
+        }
+        @empty {
+            <h3>Não existe nenhum produto cadastrado :(</h3>
+        }
+    </div>
+</div>
