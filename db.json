@@ -1,0 +1,24 @@
+{
+  "produtos": [
+    {
+      "nome": "Camiseta XG",
+      "id": "3"
+    },
+    {
+      "id": "9bac",
+      "nome": "Tesoura"
+    },
+    {
+      "id": "7687",
+      "nome": "Roupão"
+    },
+    {
+      "id": "807e",
+      "nome": "Toalha"
+    },
+    {
+      "id": "653f",
+      "nome": "dasdsads"
+    }
+  ]
+}
